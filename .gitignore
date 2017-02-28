@@ -38,3 +38,6 @@ jspm_packages
 
 # Yarn files
 yarn.lock
+
+# VSCode Project configuration folder
+.vscode

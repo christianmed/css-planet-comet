@@ -3,12 +3,12 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  box-shadow: 198px 494px white, 1197px 115px white, 47px 643px white, 94px 393px white, 1070px 228px white, 1013px 898px white, 1263px 888px white, 694px 150px white, 306px 255px white, 946px 600px white, 139px 176px white, 1000px 530px white, 1082px 667px white, 177px 262px white, 1072px 514px white, 801px 699px white, 574px 743px white, 1048px 736px white, 1158px 895px white, 535px 247px white, 1397px 756px white, 527px 329px white, 1268px 3px white, 1238px 862px white, 197px 849px white, 475px 206px white, 315px 417px white, 375px 470px white, 823px 319px white, 1370px 116px white, 555px 326px white, 61px 444px white, 856px 343px white, 691px 349px white, 695px 274px white, 389px 237px white, 30px 220px white, 610px 448px white, 861px 358px white, 79px 447px white, 1371px 408px white, 1145px 7px white, 117px 56px white, 1168px 372px white, 540px 135px white, 1386px 31px white, 98px 497px white, 119px 616px white, 963px 552px white, 687px 832px white, 557px 176px white, 70px 168px white, 705px 303px white, 248px 739px white, 753px 579px white, 441px 49px white, 479px 814px white, 898px 685px white, 676px 722px white, 752px 284px white, 1100px 838px white, 689px 865px white, 1395px 767px white, 870px 564px white, 716px 506px white, 61px 775px white, 953px 756px white, 213px 418px white, 481px 747px white, 1140px 7px white, 190px 60px white, 803px 871px white, 746px 811px white, 577px 113px white, 513px 55px white, 1133px 185px white, 121px 795px white, 548px 860px white, 27px 73px white, 80px 227px white, 1262px 759px white, 947px 725px white, 995px 206px white, 75px 726px white, 671px 352px white, 252px 297px white, 540px 153px white, 854px 556px white, 952px 740px white, 1298px 266px white, 192px 566px white, 1333px 395px white, 935px 383px white, 749px 881px white, 807px 350px white, 85px 884px white, 490px 167px white, 97px 333px white, 650px 92px white, 1292px 628px white, 397px 490px white; }
+  box-shadow: 844px 443px white, 562px 644px white, 204px 384px white, 828px 417px white, 563px 306px white, 916px 146px white, 1353px 787px white, 599px 210px white, 1313px 604px white, 1049px 217px white, 743px 29px white, 750px 265px white, 283px 848px white, 508px 395px white, 1014px 171px white, 558px 340px white, 1078px 569px white, 608px 345px white, 179px 392px white, 310px 402px white, 928px 356px white, 133px 643px white, 448px 694px white, 610px 848px white, 1078px 457px white, 277px 320px white, 767px 49px white, 315px 603px white, 255px 253px white, 77px 10px white, 57px 803px white, 1228px 158px white, 1389px 543px white, 1374px 165px white, 818px 781px white, 1082px 640px white, 75px 330px white, 858px 692px white, 681px 542px white, 991px 34px white, 1011px 493px white, 231px 135px white, 156px 789px white, 1083px 816px white, 1244px 229px white, 1299px 86px white, 202px 1px white, 890px 748px white, 980px 716px white, 327px 742px white, 780px 592px white, 761px 827px white, 501px 846px white, 228px 748px white, 281px 88px white, 998px 314px white, 808px 593px white, 17px 813px white, 823px 565px white, 515px 229px white, 515px 48px white, 1252px 517px white, 1099px 670px white, 136px 14px white, 1163px 808px white, 1122px 21px white, 491px 311px white, 219px 674px white, 626px 34px white, 379px 750px white, 1157px 467px white, 182px 140px white, 111px 176px white, 1184px 832px white, 538px 168px white, 1384px 884px white, 1279px 150px white, 294px 510px white, 723px 856px white, 615px 245px white, 166px 80px white, 897px 462px white, 778px 518px white, 544px 120px white, 700px 585px white, 1146px 523px white, 716px 88px white, 1365px 883px white, 1345px 309px white, 1154px 69px white, 742px 751px white, 277px 410px white, 417px 685px white, 618px 615px white, 1025px 680px white, 1275px 799px white, 9px 650px white, 911px 323px white, 763px 159px white, 327px 357px white, 720px 452px white; }
 
 .planet-1 {
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 50px;
+  left: 50px;
   width: 220px;
   height: 220px;
   border-radius: 50%;
@@ -32,8 +32,8 @@
 
 .planet-2 {
   position: absolute;
-  bottom: 100px;
-  right: 100px;
+  top: 100px;
+  left: 600px;
   width: 165px;
   height: 165px;
   border-radius: 50%;
@@ -57,8 +57,8 @@
 
 .planet-3 {
   position: absolute;
-  top: 300px;
-  left: 300px;
+  top: 250px;
+  left: 950px;
   width: 330px;
   height: 330px;
   border-radius: 50%;
@@ -82,8 +82,8 @@
 
 .planet-4 {
   position: absolute;
-  top: 200px;
-  left: 700px;
+  top: 450px;
+  left: 300px;
   width: 110px;
   height: 110px;
   border-radius: 50%;
@@ -107,12 +107,12 @@
 
 .comet {
   position: absolute;
-  top: 150px;
+  top: 75px;
   right: 100px;
   width: 300px;
   height: 90px;
   border-radius: 90px 0 0 90px;
-  background: #50D8D8; }
+  background: #FBE659; }
   .comet::before {
     content: "";
     position: absolute;
@@ -121,8 +121,8 @@
     width: 60px;
     height: 10px;
     border-radius: 10px;
-    background: #50D8D8;
-    box-shadow: 20px 10px 0px #292D3E, 30px 20px 0px #50D8D8, 0px 30px 0px #292D3E, -10px 40px 0px #50D8D8, 30px 50px 0px #292D3E, 20px 60px 0px #50D8D8, 20px 70px 0px #292D3E, 0px 80px 0px #50D8D8; }
+    background: #FBE659;
+    box-shadow: 20px 10px 0px #292D3E, 30px 20px 0px #FBE659, 0px 30px 0px #292D3E, -10px 40px 0px #FBE659, 30px 50px 0px #292D3E, 20px 60px 0px #FBE659, 20px 70px 0px #292D3E, 0px 80px 0px #FBE659; }
 
 .long-tail {
   position: absolute;
@@ -131,7 +131,7 @@
   width: 210px;
   height: 70px;
   border-radius: 70px 0 0 70px;
-  background: #4F5166; }
+  background: #EB564F; }
   .long-tail::before {
     content: "";
     position: absolute;
@@ -139,9 +139,9 @@
     right: -20px;
     width: 60px;
     height: 10px;
-    background: #4F5166;
+    background: #EB564F;
     border-radius: 10px;
-    box-shadow: -10px 10px 0px #50D8D8, -10px 20px 0px #4F5166, 30px 30px 0px #50D8D8, 20px 40px 0px #4F5166, 15px 50px 0px #50D8D8, -7.5px 60px 0px #4F5166; }
+    box-shadow: -10px 10px 0px #FBE659, -10px 20px 0px #EB564F, 30px 30px 0px #FBE659, 20px 40px 0px #EB564F, 15px 50px 0px #FBE659, -7.5px 60px 0px #EB564F; }
   .long-tail::after {
     content: "";
     position: absolute;
@@ -150,8 +150,8 @@
     width: 20px;
     height: 10px;
     border-radius: 10px;
-    background: #4F5166;
-    box-shadow: -5px 60px 0px #4F5166; }
+    background: #EB564F;
+    box-shadow: -5px 60px 0px #EB564F; }
 
 .short-tail {
   position: absolute;
@@ -160,7 +160,7 @@
   width: 125px;
   height: 50px;
   border-radius: 50px 0 0 50px;
-  background: #D06A69; }
+  background: #953036; }
   .short-tail::before {
     content: "";
     position: absolute;
@@ -169,8 +169,8 @@
     width: 60px;
     height: 10px;
     border-radius: 10px;
-    background: #D06A69;
-    box-shadow: 0px 10px #4F5166, 25px 20px 0 #D06A69, 20px 30px 0 #4F5166, 10px 40px 0 #D06A69; }
+    background: #953036;
+    box-shadow: 0px 10px #EB564F, 25px 20px 0 #953036, 20px 30px 0 #EB564F, 10px 40px 0 #953036; }
   .short-tail::after {
     content: "";
     position: absolute;
@@ -179,8 +179,8 @@
     width: 15px;
     height: 10px;
     border-radius: 15px;
-    background: #D06A69;
-    box-shadow: 15px -20px 0px #D06A69; }
+    background: #953036;
+    box-shadow: 15px -20px 0px #953036; }
 
 .core {
   position: absolute;
@@ -189,7 +189,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #D06A69; }
+  background: white; }
 
 * {
   box-sizing: border-box;

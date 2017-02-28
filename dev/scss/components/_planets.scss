@@ -3,8 +3,8 @@
   $p-color-2: #50D8D8;
   $p-size: 20px;
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 50px;
+  left: 50px;
   width: ($p-size * 11);
   height: ($p-size * 11);
   border-radius: 50%;
@@ -17,8 +17,6 @@
   transform: rotate(-135deg);
   box-shadow:
     0px 0px 0px $p-size rgba($p-color-2,.25);
-  // box-shadow:
-  //   0px 0px ($p-size * 3.5) $p-color-1;
 
   &::before {
     content: "";
@@ -49,8 +47,8 @@
   $p-color-2: #9F5DFF;
   $p-size: 15px;
   position: absolute;
-  bottom: 100px;
-  right: 100px;
+  top: 100px;
+  left: 600px;
   width: ($p-size * 11);
   height: ($p-size * 11);
   border-radius: 50%;
@@ -95,8 +93,8 @@
   $p-color-2: #85FF5E;
   $p-size: 30px;
   position: absolute;
-  top: 300px;
-  left: 300px;
+  top: 250px;
+  left: 950px;
   width: ($p-size * 11);
   height: ($p-size * 11);
   border-radius: 50%;
@@ -141,8 +139,8 @@
   $p-color-2: #FEBD47;
   $p-size: 10px;
   position: absolute;
-  top: 200px;
-  left: 700px;
+  top: 450px;
+  left: 300px;
   width: ($p-size * 11);
   height: ($p-size * 11);
   border-radius: 50%;

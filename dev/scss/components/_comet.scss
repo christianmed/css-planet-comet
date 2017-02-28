@@ -1,12 +1,17 @@
-$comet-1: #50D8D8;
-$comet-2: #4F5166;
+// $comet-1: #50D8D8;
+// $comet-2: #4F5166;
+// $comet-3: #557AA6;
+// $comet-4: #D06A69;
+// $gutter: 10px;
+$comet-1: #FBE659;
+$comet-2: #EB564F;
 $comet-3: #557AA6;
-$comet-4: #D06A69;
+$comet-4: #953036;
 $gutter: 10px;
 
 .comet {
   position: absolute;
-  top: 150px;
+  top: 75px;
   right: 100px;
   width: ($gutter * 30);
   height: $gutter * 9;
@@ -119,5 +124,5 @@ $gutter: 10px;
   width: ($gutter * 3);
   height: ($gutter * 3);
   border-radius: 50%;
-  background: $comet-4;
+  background: white;
 }
