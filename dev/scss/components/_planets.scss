@@ -1,0 +1,183 @@
+.planet-1 {
+  $p-color-1: #28A2B7;
+  $p-color-2: #50D8D8;
+  $p-size: 20px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: ($p-size * 11);
+  height: ($p-size * 11);
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    $p-color-1 50%,
+    $p-color-2 50%
+  );
+  overflow: hidden;
+  transform: rotate(-135deg);
+  box-shadow:
+    0px 0px 0px $p-size rgba($p-color-2,.25);
+  // box-shadow:
+  //   0px 0px ($p-size * 3.5) $p-color-1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -$p-size;
+    width: ($p-size * 6);
+    height: $p-size;
+    border-radius: $p-size;
+    background: $p-color-2;
+    box-shadow:
+     (-$p-size * 4) $p-size 0 $p-color-1,
+      (-$p-size * 2) ($p-size * 2) 0px $p-color-2,
+      (-$p-size * 2) ($p-size * 3) 0px $p-color-1,
+      ($p-size * .5) ($p-size * 4) 0px $p-color-2,
+      (-$p-size * 3) ($p-size * 5) 0px $p-color-1,
+      (-$p-size * 3) ($p-size * 6) 0px $p-color-2,
+      (-$p-size * 1) ($p-size * 7) 0px $p-color-1,
+      (-$p-size * .5) ($p-size * 8) 0px $p-color-2,
+      (-$p-size * 4) ($p-size * 9) 0px $p-color-1,
+      ($p-size * .5) ($p-size * 10) 0px $p-color-2;
+  }
+}
+
+.planet-2 {
+  $p-color-1: #902EFF;
+  $p-color-2: #9F5DFF;
+  $p-size: 15px;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  width: ($p-size * 11);
+  height: ($p-size * 11);
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    $p-color-1 50%,
+    $p-color-2 50%
+  );
+  overflow: hidden;
+  transform: rotate(-135deg);
+  box-shadow:
+    0px 0px 0px $p-size rgba($p-color-2,.25);
+  // box-shadow:
+  //   0px 0px ($p-size * 3.5) $p-color-1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -$p-size;
+    width: ($p-size * 6);
+    height: $p-size;
+    border-radius: $p-size;
+    background: $p-color-2;
+    box-shadow:
+     (-$p-size * 4) $p-size 0 $p-color-1,
+      (-$p-size * 2) ($p-size * 2) 0px $p-color-2,
+      (-$p-size * 2) ($p-size * 3) 0px $p-color-1,
+      ($p-size * .5) ($p-size * 4) 0px $p-color-2,
+      (-$p-size * 3) ($p-size * 5) 0px $p-color-1,
+      (-$p-size * 3) ($p-size * 6) 0px $p-color-2,
+      (-$p-size * 1) ($p-size * 7) 0px $p-color-1,
+      (-$p-size * .5) ($p-size * 8) 0px $p-color-2,
+      (-$p-size * 4) ($p-size * 9) 0px $p-color-1,
+      ($p-size * .5) ($p-size * 10) 0px $p-color-2;
+  }
+}
+
+.planet-3 {
+  $p-color-1: #00DE07;
+  $p-color-2: #85FF5E;
+  $p-size: 30px;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  width: ($p-size * 11);
+  height: ($p-size * 11);
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    $p-color-1 50%,
+    $p-color-2 50%
+  );
+  overflow: hidden;
+  transform: rotate(-135deg);
+  box-shadow:
+    0px 0px 0px $p-size rgba($p-color-2,.25);
+  // box-shadow:
+  //   0px 0px ($p-size * 3.5) $p-color-1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -$p-size;
+    width: ($p-size * 6);
+    height: $p-size;
+    border-radius: $p-size;
+    background: $p-color-2;
+    box-shadow:
+     (-$p-size * 4) $p-size 0 $p-color-1,
+      (-$p-size * 2) ($p-size * 2) 0px $p-color-2,
+      (-$p-size * 2) ($p-size * 3) 0px $p-color-1,
+      ($p-size * .5) ($p-size * 4) 0px $p-color-2,
+      (-$p-size * 3) ($p-size * 5) 0px $p-color-1,
+      (-$p-size * 3) ($p-size * 6) 0px $p-color-2,
+      (-$p-size * 1) ($p-size * 7) 0px $p-color-1,
+      (-$p-size * .5) ($p-size * 8) 0px $p-color-2,
+      (-$p-size * 4) ($p-size * 9) 0px $p-color-1,
+      ($p-size * .5) ($p-size * 10) 0px $p-color-2;
+  }
+}
+
+.planet-4 {
+  $p-color-1: #FF822E;
+  $p-color-2: #FEBD47;
+  $p-size: 10px;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  width: ($p-size * 11);
+  height: ($p-size * 11);
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    $p-color-1 50%,
+    $p-color-2 50%
+  );
+  overflow: hidden;
+  transform: rotate(-135deg);
+  box-shadow:
+    0px 0px 0px $p-size rgba($p-color-2,.25);
+  // box-shadow:
+  //   0px 0px ($p-size * 3.5) $p-color-1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -$p-size;
+    width: ($p-size * 6);
+    height: $p-size;
+    border-radius: $p-size;
+    background: $p-color-2;
+    box-shadow:
+     (-$p-size * 4) $p-size 0 $p-color-1,
+      (-$p-size * 2) ($p-size * 2) 0px $p-color-2,
+      (-$p-size * 2) ($p-size * 3) 0px $p-color-1,
+      ($p-size * .5) ($p-size * 4) 0px $p-color-2,
+      (-$p-size * 3) ($p-size * 5) 0px $p-color-1,
+      (-$p-size * 3) ($p-size * 6) 0px $p-color-2,
+      (-$p-size * 1) ($p-size * 7) 0px $p-color-1,
+      (-$p-size * .5) ($p-size * 8) 0px $p-color-2,
+      (-$p-size * 4) ($p-size * 9) 0px $p-color-1,
+      ($p-size * .5) ($p-size * 10) 0px $p-color-2;
+  }
+}

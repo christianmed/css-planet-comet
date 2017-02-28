@@ -1,0 +1,18 @@
+@function stars ($num,$color) {
+  $box-shadow:
+    random(1000)+px random(600)+px #{$color};
+    @for $i from 1 through $num {
+      $box-shadow:
+        #{$box-shadow},
+        random(1400)+px random(900)+px #{$color};
+    }
+  @return $box-shadow;
+}
+
+.stars {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  box-shadow: stars(100,white);
+}

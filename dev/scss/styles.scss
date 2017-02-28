@@ -1,0 +1,16 @@
+@import "components/variables.scss";
+@import "components/stars.scss";
+@import "components/planets.scss";
+@import "components/comet.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $bg;
+  overflow: hidden;
+}
+

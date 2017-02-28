@@ -1,0 +1,123 @@
+$comet-1: #50D8D8;
+$comet-2: #4F5166;
+$comet-3: #557AA6;
+$comet-4: #D06A69;
+$gutter: 10px;
+
+.comet {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  width: ($gutter * 30);
+  height: $gutter * 9;
+  border-radius: ($gutter * 9) 0 0 ($gutter * 9);
+  background: $comet-1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: (-$gutter * 2);
+    width: ($gutter * 6);
+    height: $gutter;
+    border-radius: $gutter;
+    background: $comet-1;
+    box-shadow:
+      ($gutter * 2) $gutter 0px $bg,
+      ($gutter * 3) ($gutter * 2) 0px $comet-1,
+      0px ($gutter * 3) 0px $bg,
+      -$gutter ($gutter * 4) 0px $comet-1,
+      ($gutter * 3) ($gutter * 5) 0px $bg,
+      ($gutter * 2) ($gutter * 6) 0px $comet-1,
+      ($gutter * 2) ($gutter * 7) 0px $bg,
+      0px ($gutter * 8) 0px $comet-1;
+  }
+}
+
+.long-tail {
+  position: absolute;
+  top: $gutter;
+  left: $gutter;
+  width: ($gutter * 21);
+  height: $gutter * 7;
+  border-radius: ($gutter * 7) 0 0 ($gutter * 7);
+  background: $comet-2;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: (-$gutter * 2);
+    width: ($gutter * 6);
+    height: $gutter;
+    background: $comet-2;
+    border-radius: $gutter;
+    box-shadow:
+      -$gutter $gutter 0px $comet-1,
+      -$gutter ($gutter * 2) 0px $comet-2,
+      ($gutter * 3) ($gutter * 3) 0px $comet-1,
+      ($gutter * 2) ($gutter * 4) 0px $comet-2,
+      ($gutter * 1.5) ($gutter * 5) 0px $comet-1,
+      (-$gutter * .75) ($gutter * 6) 0px $comet-2;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: (-$gutter * 5);
+    width: ($gutter * 2);
+    height: $gutter;
+    border-radius: $gutter;
+    background: $comet-2;
+    box-shadow: 
+      (-$gutter * .5) ($gutter * 6) 0px $comet-2;
+  }
+}
+
+.short-tail {
+  position: absolute;
+  top: ($gutter * 2);
+  left: ($gutter * 2);
+  width: ($gutter * 12.5);
+  height: ($gutter * 5);
+  border-radius: ($gutter * 5) 0 0 ($gutter * 5);
+  background: $comet-4;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -$gutter;
+    width: ($gutter * 6);
+    height: $gutter;
+    border-radius: $gutter;
+    background: $comet-4;
+    box-shadow:
+      0px $gutter $comet-2,
+      ($gutter * 2.5) ($gutter * 2) 0 $comet-4,
+      ($gutter * 2) ($gutter * 3) 0 $comet-2,
+      $gutter ($gutter * 4) 0 $comet-4;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: (-$gutter * 4.25);
+    width: ($gutter * 1.5);
+    height: $gutter;
+    border-radius: ($gutter * 1.5);
+    background: $comet-4;
+    box-shadow: 
+    ($gutter * 1.5) (-$gutter * 2) 0px $comet-4;
+  }
+}
+
+.core {
+  position: absolute;
+  top: ($gutter * 3);
+  left: ($gutter * 3);
+  width: ($gutter * 3);
+  height: ($gutter * 3);
+  border-radius: 50%;
+  background: $comet-4;
+}
